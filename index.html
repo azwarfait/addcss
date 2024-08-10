@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head id="head">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>My Website</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Selamat Datang di Website Saya</h2>
+      <p>Ini adalah Website Sederhana</p>
+      <button onclick="addCSS()" id="button">Toggle CSS</button>
+    </main>
+
+    <footer>
+      <p>Copyright ©️ Azwarfait</p>
+    </footer>
+
+    <script>
+      let counter = 0;
+      function addCSS() {
+        counter++;
+        if (counter % 2 !== 0) {
+          document.getElementById("head").innerHTML =
+            '<title>Add CSS</title> <link rel="stylesheet" href="style.css">';
+        } else {
+          document.getElementById("head").innerHTML = "<title>Document</title>";
+        }
+      }
+    </script>
+  </body>
+</html>

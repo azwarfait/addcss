@@ -1,0 +1,53 @@
+* {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+  padding: 7px;
+  color: aliceblue;
+  background-color: cornflowerblue;
+}
+
+nav {
+  color: aliceblue;
+  background-color: cornflowerblue;
+  font-size: large;
+}
+ul {
+  padding: 7px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+li {
+  padding: 0 7px;
+  display: inline;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main {
+  color: black !important;
+  padding: 20px 7px;
+}
+
+button{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+}
+footer {
+  color: aliceblue;
+  padding: 10px 0;
+  background-color: cornflowerblue;
+}
